@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react'
 import TopBooks from './TopBooks'
+import TopStories from './TopStories'
 
 const HomePage = () => {
 
@@ -27,6 +28,7 @@ const HomePage = () => {
     return (
         <div>
             <TopBooks setBookType={setBookType} books={books}/>
+            <TopStories stories={stories}/>
         </div>
     )
 }
