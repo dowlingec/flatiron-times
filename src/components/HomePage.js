@@ -26,7 +26,7 @@ const HomePage = () => {
 
     return (
         <div>
-            <TopBooks setBookType={setBookType}/>
+            <TopBooks setBookType={setBookType} books={books}/>
         </div>
     )
 }
