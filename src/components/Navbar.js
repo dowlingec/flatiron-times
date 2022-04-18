@@ -1,15 +1,16 @@
+import { BrowserRouter, Route, NavLink, Switch} from "react-router-dom"
 import TopStories from './TopStories'
 import TopBooks from './TopBooks'
+import HomePage from './HomePage'
 
 const Navbar = () => {
 
+
+
     return (
         <div>
-            <h3>Homepage</h3>
-            <h3>Top Stories</h3>
-            <TopStories />
-            <h3>Top Books</h3>
-            <TopBooks />
+            <Route path="/"><HomePage/></Route>
+            <NavLink to="/">Home</NavLink>
         </div>
     )
 }
