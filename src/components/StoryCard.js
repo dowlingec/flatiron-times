@@ -6,12 +6,12 @@ const StoryCard = ({element}) => {
 
     return(
         <div>
-            <h4>Title: {title}</h4>
+           <h4> <a href={url} target={"_blank"}>{title}</a> </h4>
+            {/* <h4>Title: {title}</h4> */}
             <img src={image} alt={title}/>
             <p>{caption}</p>
             <p>{abstract}</p>
             <h4>{byline}</h4>
-            <a href={url} target={"_blank"}>Article URL</a>
         </div>
     )
 }
