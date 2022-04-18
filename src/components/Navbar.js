@@ -1,7 +1,7 @@
 import TopStories from './TopStories'
 import TopBooks from './TopBooks'
 
-const NavBar = () => {
+const Navbar = () => {
 
     return (
         <div>
