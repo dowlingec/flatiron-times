@@ -1,7 +1,15 @@
-const TopBooks = ({setBookType}) => {
+import BookCard from './BookCard'
+
+const TopBooks = ({setBookType, books}) => {
+
     return(
         <div>
-                        <button onClick={()=>{
+            {books.map((element)=>{
+               return( <BookCard element={element} key={element.rank}/>)
+            })}
+
+
+            <button onClick={()=>{
                 setBookType('combined-print-and-e-book-fiction')
                 }}>Fiction</button>
 
