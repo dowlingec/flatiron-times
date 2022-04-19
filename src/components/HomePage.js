@@ -8,6 +8,7 @@ const HomePage = ({books, stories}) => {
     if (books.length > 0 && stories.length > 0) { //waits for fetch to fill arrays and then populates HomePage with first entry from each
         const {author, description, rank, title} = books[0]
         const image = books[0].book_image
+        const link = books[0].amazon_product_url
     
         const storyTitle = stories[0].title
         const {abstract, url, byline} = stories[0]
@@ -20,8 +21,8 @@ const HomePage = ({books, stories}) => {
             <h1>HI!</h1>
             <li className='book-card'>
                 <h4>Rank: {rank}</h4>
-                <img src={image} alt={title} />
-                <h4>{title}</h4>
+                <img src={image} alt={title} /> <br />
+                <a href={link} target={"_blank"}>{title}</a>
                 <h4>Author: {author}</h4>
                 <p>{description}</p>
                 <BookReviewForm />
