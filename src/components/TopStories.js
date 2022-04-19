@@ -4,7 +4,7 @@ const TopStories = ({stories}) => {
     return(
         <div>
             {stories.map((element)=>{
-               return( <StoryCard element={element} />)
+               return( <StoryCard element={element} key={element.url}/>)
             })}
         </div>
     )
