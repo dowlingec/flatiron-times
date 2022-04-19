@@ -6,7 +6,7 @@ const BookCard = ({element}) => {
     const image = element.book_image
 
     return(
-        <div>
+        <div className="book-card">
             <li className='book-card'>
                 <h4>Rank: {rank}</h4>
                 <img src={image} alt={title} />
