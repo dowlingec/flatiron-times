@@ -8,7 +8,7 @@ const StoryCard = ({element}) => {
     const caption = element.multimedia[1].caption
 
     return(
-        <div>
+        <div className='story-card'>
            <h4> <a href={url} target={"_blank"}>{title}</a> </h4>
             {/* <h4>Title: {title}</h4> */}
             <img src={image} alt={title}/>

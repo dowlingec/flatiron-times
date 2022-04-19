@@ -3,13 +3,7 @@ import BookCard from './BookCard'
 const TopBooks = ({setBookType, books}) => {
 
     return(
-        <div>
-            {/* <h1>Top Books Test</h1> */}
-            {books.map((element)=>{
-               return( <BookCard element={element} key={element.rank}/>)
-            })}
-
-
+        <div className='top-books'>
             <button onClick={()=>{
                 setBookType('combined-print-and-e-book-fiction')
                 }}>Fiction</button>
@@ -53,6 +47,10 @@ const TopBooks = ({setBookType, books}) => {
             <button onClick={()=>{
                 setBookType('travel')
             }}>Travel</button>
+
+            {books.map((element)=>{
+               return( <BookCard element={element} key={element.rank}/>)
+            })}
         </div>
     )
 }

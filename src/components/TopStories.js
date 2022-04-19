@@ -2,7 +2,7 @@ import StoryCard from './StoryCard'
 
 const TopStories = ({stories}) => {
     return(
-        <div>
+        <div className='top-stories'>
             {stories.map((element)=>{
                return( <StoryCard element={element} key={element.url}/>)
             })}
