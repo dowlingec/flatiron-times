@@ -44,8 +44,7 @@ a {
   width: 50%;
   align-items: center;
   vertical-align: middle;
-  /* max-height: 600px; */
-  overflow-y: scroll;
+  
 }
 
 .home-right {
@@ -53,8 +52,6 @@ a {
   width: 50%;
   align-items: center;
   vertical-align: middle;
-  /* max-height: 600px; */
-  overflow-y: scroll;
 }
 
 img {
