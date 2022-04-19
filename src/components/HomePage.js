@@ -9,7 +9,7 @@ const HomePage = ({books, stories}) => {
         const {author, description, rank, title} = books[0]
         const image = books[0].book_image
     
-        const storyTitle = books[0].title
+        const storyTitle = stories[0].title
         const {abstract, url, byline} = stories[0]
         const storyImage = stories[0].multimedia[1].url
         const caption = stories[0].multimedia[1].caption
