@@ -1,8 +1,54 @@
+body {
+  background-image: url(https://img.myloview.com/posters/old-paper-background-old-crumpled-paper-texture-vintage-retro-newspaper-empty-blank-space-page-with-grunge-stain-line-pattern-400-211347626.jpg);
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  font-weight: medium;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+}
+
+.nav {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
+
+}
+
+.book-card {
+  background-color: ivory;
+  border-radius: 4px;
+}
+
+/* .bookcard img {
+  height: 100px;
+} */
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
 .App {
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +81,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
