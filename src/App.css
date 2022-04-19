@@ -30,23 +30,27 @@ a {
 }
 
 .book-card {
-  background-color: ivory;
   border-radius: 4px;
 }
 
-/* .homepage {
-  background-color: red;
+.homepage {
   display: flex;
   margin-top: 5em;
 }
 
-.home-book {
+.home-left {
+  float: left;
   width: 50%
 }
 
-.home-story {
+.home-right {
+  float: right;
   width: 50%;
-} */
+}
+
+img {
+  height: 400px;
+}
 
 /* .bookcard img {
   height: 100px;

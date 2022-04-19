@@ -16,22 +16,25 @@ const HomePage = ({books, stories}) => {
 
 
     return (
-        <div>
-            <h1>HI!</h1>
-            <li className='book-card'>
-                <h4>Rank: {rank}</h4>
-                <img src={image} alt={title} />
-                <h4>{title}</h4>
-                <h4>Author: {author}</h4>
-                <p>{description}</p>
-                <BookReviewForm />
-            </li>   
-            <h4> <a href={url} target={"_blank"}>{storyTitle}</a> </h4>
-            <img src={storyImage} alt={storyTitle}/>
-            <p>{caption}</p>
-            <p>{abstract}</p>
-            <h4>{byline}</h4>
-            <StoryCommentForm />
+        <div className="homepage-div">
+            <div className="home-left">
+                <li className='book-card'>
+                    <h4>Rank: {rank}</h4>
+                    <img src={image} alt={title} />
+                    <h4>{title}</h4>
+                    <h4>Author: {author}</h4>
+                    <p>{description}</p>
+                    <BookReviewForm />
+                </li> 
+            </div>  
+            <div className="home-right">
+                <h4> <a href={url} target={"_blank"}>{storyTitle}</a> </h4>
+                <img src={storyImage} alt={storyTitle}/>
+                <p>{caption}</p>
+                <p>{abstract}</p>
+                <h4>{byline}</h4>
+                <StoryCommentForm />
+            </div>
         </div>
     )
     }
