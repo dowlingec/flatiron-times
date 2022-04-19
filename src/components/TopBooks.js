@@ -5,9 +5,9 @@ const TopBooks = ({setBookType, books}) => {
     return(
         <div>
             <h1>Top Books Test</h1>
-            {/* {books.map((element)=>{
+            {books.map((element)=>{
                return( <BookCard element={element} key={element.rank}/>)
-            })} */}
+            })}
 
 
             <button onClick={()=>{
