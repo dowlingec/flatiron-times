@@ -1,3 +1,6 @@
+import StoryCommentForm from "./StoryCommentForm"
+
+
 const StoryCard = ({element}) => {
 
     const {title, abstract, url, byline} = element
@@ -12,6 +15,7 @@ const StoryCard = ({element}) => {
             <p>{caption}</p>
             <p>{abstract}</p>
             <h4>{byline}</h4>
+            <StoryCommentForm />
         </div>
     )
 }

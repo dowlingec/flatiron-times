@@ -1,3 +1,5 @@
+import BookReviewForm from "./BookReviewForm"
+
 const BookCard = ({element}) => {
 
     const {author, description, rank, title} = element
@@ -11,7 +13,7 @@ const BookCard = ({element}) => {
                 <h4>{title}</h4>
                 <h4>Author: {author}</h4>
                 <p>{description}</p>
-
+                <BookReviewForm />
 
 
             </li>
