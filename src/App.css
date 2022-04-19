@@ -30,8 +30,36 @@ a {
 }
 
 .book-card {
-  background-color: ivory;
   border-radius: 4px;
+}
+
+.homepage-div {
+  display: flex;
+  padding-top: 5%;
+
+}
+
+.home-left {
+  float: left;
+  width: 50%;
+  align-items: center;
+  vertical-align: middle;
+  /* max-height: 600px; */
+  overflow-y: scroll;
+}
+
+.home-right {
+  float: right bottom;
+  width: 50%;
+  align-items: center;
+  vertical-align: middle;
+  /* max-height: 600px; */
+  overflow-y: scroll;
+}
+
+img {
+  height: 400px;
+  vertical-align: middle;
 }
 
 /* .bookcard img {
