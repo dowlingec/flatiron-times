@@ -11,14 +11,14 @@ function App() {
     <div className="App">
       <Navbar />
       <Switch>
+        <Route exact path="/">
+          <HomePage />
+        </Route>
         <Route exact path="/topstories">
           <TopStories />
         </Route>
         <Route exact path="/topbooks">
           <TopBooks />
-        </Route>
-        <Route exact path="/">
-          <HomePage />
         </Route>
       </Switch>
     </div>

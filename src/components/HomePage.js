@@ -27,6 +27,7 @@ const HomePage = () => {
 
     return (
         <div>
+            <h1>HI!</h1>
             <TopBooks setBookType={setBookType} books={books}/>
             <TopStories stories={stories}/>
         </div>
