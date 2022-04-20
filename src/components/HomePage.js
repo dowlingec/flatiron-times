@@ -23,7 +23,6 @@ const HomePage = ({books, stories}) => {
                     <a href={link} target={"_blank"}>{title.toUpperCase()}</a> <br/>
                     <h4>Author: {author}</h4>
                     <p>{description}</p>
-                    <BookReviewForm />
             </div>  
             <div className="home-right">
                 <img src={storyImage} alt={storyTitle}/><br/>
@@ -31,7 +30,6 @@ const HomePage = ({books, stories}) => {
                 <p>{caption}</p>
                 <p>{abstract}</p>
                 <h4>{byline}</h4>
-                <StoryCommentForm />
             </div>
         </div>
     )
