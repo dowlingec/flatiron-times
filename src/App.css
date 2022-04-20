@@ -73,22 +73,22 @@ button {
     width: 15%;
   }
 
-.book-card {
-  background-size: cover;
-  display:flex;
-  border-radius: 4px;
-  margin:2%;
-}
-
-.homepage-div {
-  display: flex;
-  padding-top: 5%;
-}
-
-.top-books {
-  display: flexbox;
-}
-
+  
+  .homepage-div {
+    display: flex;
+    padding-top: 5%;
+  }
+  
+  .top-books {
+    display: flexbox;
+  }
+  
+  .book-card {
+    background-size: cover;
+    display:flex;
+    border-radius: 4px;
+    margin:2%;
+  }
 .book-img {
   float: left;
   width: 50%;
@@ -104,10 +104,19 @@ button {
 }
 
 .top-stories {
-  justify-content:center;
+  display: flex;
+  flex-direction: column;
   padding-left: 5%;
   padding-right: 5%;
+  
+}
 
+.story-card {
+  width: 35%;
+}
+.story-c-image {
+  max-width: 100%;
+  height: auto;
 }
 
 .home-left {
@@ -129,6 +138,7 @@ img {
   height: 400px;
   vertical-align: middle;
 }
+
 
 .App {
   display: flex;

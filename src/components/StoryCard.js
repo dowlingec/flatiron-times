@@ -11,7 +11,7 @@ const StoryCard = ({element}) => {
         <div className='story-card'>
            <h4> <a href={url} target={"_blank"}>{title}</a> </h4>
             {/* <h4>Title: {title}</h4> */}
-            <img src={image} alt={title}/>
+            <img src={image} alt={title} className="story-c-image"/>
             <p>{caption}</p>
             <p>{abstract}</p>
             <h4>{byline}</h4>
