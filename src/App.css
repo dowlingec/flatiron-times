@@ -4,6 +4,7 @@ html {
 }
 
 body {
+  padding-top: 55px;
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
@@ -22,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 2em;
+  font-size: 24px;
 }
 
 button {
@@ -35,6 +36,7 @@ button {
 
 .nav {
   position: fixed;
+  /* display: block; */
   background-image: url(https://i.pinimg.com/736x/4c/38/03/4c38037d5a3c6006020fc8ebc201d707.jpg);
   background-size: cover;
   width: 100%;
@@ -84,7 +86,10 @@ button {
 }
 
 .top-stories {
-  padding: 5%
+  
+  padding-left: 5%;
+  padding-right: 5%;
+
 }
 
 .home-left {
@@ -108,6 +113,8 @@ img {
 }
 
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
