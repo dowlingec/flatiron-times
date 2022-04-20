@@ -15,7 +15,6 @@ const StoryCard = ({element}) => {
             <p>{caption}</p>
             <p>{abstract}</p>
             <h4>{byline}</h4>
-            <StoryCommentForm />
         </div>
     )
 }
