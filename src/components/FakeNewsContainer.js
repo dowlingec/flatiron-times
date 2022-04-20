@@ -17,6 +17,7 @@ const FakeNewsContainer = () => {
 
     return(
         <div className='fake-news'>
+            <h1>FAKE NEWS</h1><br/>
             <NewFakeNews setFakeNews={setFakeNews}/>
             {fakeNews.map((element)=> {
             return(    <FakeNewsCard element={element} key={element.id} setFakeNews={setFakeNews}/>)
