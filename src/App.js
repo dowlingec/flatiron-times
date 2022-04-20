@@ -14,6 +14,8 @@ function App() {
   const [stories, setStories] = useState([])
   const [books, setBooks] = useState([])
   const [bookType, setBookType] = useState("combined-print-and-e-book-fiction")
+  const [filterBy, setFilterBy] = useState("")
+  
 
   useEffect(()=> {
       (async () => {
@@ -30,7 +32,10 @@ function App() {
           setBooks(res.results.books)
       })()
   },[bookType])
+  
+  let filteredStories = stories.filter((e) => { return (e.title.includes(filterBy)) })
 
+  let storiesReturned = filteredStories ? filteredStories : stories
 
   return (
     <div className="App">
@@ -40,7 +45,7 @@ function App() {
           <HomePage books={books} stories={stories}/>
         </Route>
         <Route exact path="/topstories">
-          <TopStories stories={stories}/>
+          <TopStories stories={storiesReturned} setFilterBy={setFilterBy}/>
         </Route>
         <Route exact path="/topbooks">
           <TopBooks setBookType={setBookType} books={books}/>
