@@ -74,8 +74,10 @@ button {
   }
 
 .book-card {
+  background-size: cover;
   display:flex;
   border-radius: 4px;
+  margin:2%;
 }
 
 .homepage-div {
@@ -85,8 +87,6 @@ button {
 
 .top-books {
   display: flexbox;
-  /* padding-left: 5%;
-  padding-right: 5% */
 }
 
 .book-img {
@@ -99,7 +99,7 @@ button {
   padding-left: 5%;
   padding-right: 5%;
   float: right;
-  width: 50%;
+  max-width: 30%;
   text-align: center;
 }
 
