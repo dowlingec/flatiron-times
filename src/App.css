@@ -84,23 +84,23 @@ button {
 }
 
 .top-books {
-  /* display: flexbox; */
-  /* justify-content: space-around; */
-  padding-left: 5%;
-  padding-right: 5%
+  display: flexbox;
+  /* padding-left: 5%;
+  padding-right: 5% */
 }
 
 .book-img {
   float: left;
   width: 50%;
 }
+
 .book-abt{
-  padding-top: 20%;
-  padding-right: 20%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
   float: right;
-  justify-content: center;
-  align-items: center;
-  width: 50%
+  width: 50%;
+  text-align: center;
 }
 
 .top-stories {
