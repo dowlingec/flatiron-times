@@ -4,10 +4,11 @@ html {
 }
 
 body {
-  padding-top: 55px;
+  padding-top: 58px;
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
+  justify-content: center;
 }
 
 p {
@@ -86,7 +87,7 @@ button {
 }
 
 .top-stories {
-  
+  justify-content: center;
   padding-left: 5%;
   padding-right: 5%;
 
