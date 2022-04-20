@@ -14,7 +14,6 @@ const BookCard = ({element}) => {
                 <a href={link} target={"_blank"}>{title}</a>
                 <h4>Author: {author}</h4>
                 <p>{description}</p>
-                <BookReviewForm />
             </li>
         </div>
     )
