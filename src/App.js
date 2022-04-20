@@ -6,6 +6,7 @@ import HomePage from './components/HomePage';
 import Navbar from './components/Navbar';
 import TopStories from './components/TopStories';
 import TopBooks from './components/TopBooks';
+import FakeNewsContainer from "./components/FakeNewsContainer";
 
 
 function App() {
@@ -44,6 +45,9 @@ function App() {
         </Route>
         <Route exact path="/topbooks">
           <TopBooks setBookType={setBookType} books={books}/>
+        </Route>
+        <Route exact path="/fakenews">
+          <FakeNewsContainer />
         </Route>
       </Switch>
     </div>
