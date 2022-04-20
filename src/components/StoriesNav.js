@@ -1,9 +1,12 @@
 import { useState } from 'react'
-const StoriesNav = () => {
-    let [filterBy, setFilterBy] = useState("")
+
+const StoriesNav = ({}) => {
+    
+    let [filterBy, setFilterBy] = useState("exciting")
+
     const handleSubmit = (e) => {
         e.preventDefault()
-        return alert('Hello')
+        console.log(filterBy.toLowerCase())
     }
 
     return(
@@ -12,7 +15,7 @@ const StoriesNav = () => {
                 <input type="text" placeholder="Find a story..." onChange={(e) => {setFilterBy(e.target.value)}}></input>
                 <button type="submit" >GO!</button>
             </form>
-            console.log({filterBy})
+
         </div>
     )
 }
