@@ -1,7 +1,9 @@
-body {
-  background-image: url(https://img.myloview.com/posters/old-paper-background-old-crumpled-paper-texture-vintage-retro-newspaper-empty-blank-space-page-with-grunge-stain-line-pattern-400-211347626.jpg);
+html {
+  background: url(https://img.myloview.com/posters/old-paper-background-old-crumpled-paper-texture-vintage-retro-newspaper-empty-blank-space-page-with-grunge-stain-line-pattern-400-211347626.jpg) no-repeat center fixed;
   background-size: cover;
-  min-height: 100%;
+}
+
+body {
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
@@ -37,7 +39,7 @@ button {
   background-size: cover;
   width: 100%;
   top: 0;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
   .left-nav {
