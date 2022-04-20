@@ -1,6 +1,7 @@
 import BookCard from './BookCard'
+import BooksNav from './BooksNav'
 
-const TopBooks = ({setBookType, books}) => {
+const TopBooks = ({setBookType, books, setBookFilter}) => {
 
     return(
         <div className='top-books'>
@@ -47,7 +48,9 @@ const TopBooks = ({setBookType, books}) => {
             <button onClick={()=>{
                 setBookType('travel')
             }}>Travel</button>
-
+            <br/>
+            <br/>
+            <BooksNav setBookFilter={setBookFilter}/>
             {books.map((element)=>{
                return( <BookCard element={element} key={element.rank}/>)
             })}
