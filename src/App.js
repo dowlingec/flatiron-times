@@ -35,23 +35,11 @@ function App() {
       })()
   },[bookType])
   
-  let lowerCase = stories.map(element=>({
-    ...element, title: element.title.toLowerCase()
-  }))
 
-  let lowerCaseFilter = lowerCase.filter((element)=> {return(element.title.includes(filterBy.toLowerCase()))})
-  let filteredStories = stories.filter((e) => { return (e.title.includes(filterBy.toLowerCase())) })
+  let filteredStories = stories.filter((e) => { return (e.title.toLowerCase().includes(filterBy.toLowerCase())) })
   let storiesReturned = filteredStories ? filteredStories : stories
-  // let storiesReturned = filteredStories ? filteredStories : lowerCaseFilter ? lowerCaseFilter : stories
-  // let storiesReturned = lowerCaseFilter ? lowerCaseFilter : stories
 
-const filterArray = (arr1, arr2) => {
-
-}
-
-
-
-  let filteredBooks = books.filter((e)=> {return(e.title.includes(bookFilter.toUpperCase()))})
+  let filteredBooks = books.filter((e)=> {return(e.title.toLowerCase().includes(bookFilter.toLowerCase()))})
   let booksReturned = filteredBooks ? filteredBooks : books
 
 
