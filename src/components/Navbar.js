@@ -1,7 +1,5 @@
 import { NavLink } from "react-router-dom"
 
-// import HomePage from './HomePage'
-
 const Navbar = () => {
 
     return (
