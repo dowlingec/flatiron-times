@@ -4,9 +4,11 @@ html {
 }
 
 body {
+  padding-top: 58px;
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
+  justify-content: center;
 }
 
 p {
@@ -22,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 2em;
+  font-size: 24px;
 }
 
 button {
@@ -35,6 +37,7 @@ button {
 
 .nav {
   position: fixed;
+  /* display: block; */
   background-image: url(https://i.pinimg.com/736x/4c/38/03/4c38037d5a3c6006020fc8ebc201d707.jpg);
   background-size: cover;
   width: 100%;
@@ -71,7 +74,10 @@ button {
   }
 
 .book-card {
+  background-size: cover;
+  display:flex;
   border-radius: 4px;
+  margin:2%;
 }
 
 .homepage-div {
@@ -80,11 +86,28 @@ button {
 }
 
 .top-books {
-  padding: 5%
+  display: flexbox;
+}
+
+.book-img {
+  float: left;
+  width: 50%;
+}
+
+.book-abt{
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: right;
+  max-width: 30%;
+  text-align: center;
 }
 
 .top-stories {
-  padding: 5%
+  justify-content:center;
+  padding-left: 5%;
+  padding-right: 5%;
+
 }
 
 .home-left {
@@ -108,6 +131,8 @@ img {
 }
 
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 

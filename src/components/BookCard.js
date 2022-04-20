@@ -8,13 +8,17 @@ const BookCard = ({element}) => {
 
     return(
         <div className="book-card">
-            <li className='book-card'>
-                <h4>Rank: {rank}</h4>
-                <img src={image} alt={title} /> <br />
-                <a href={link} target={"_blank"}>{title}</a>
-                <h4>Author: {author}</h4>
-                <p>{description}</p>
-            </li>
+            {/* <li className='book-card'> */}
+                <div className="book-img">
+                    <h4>Rank: {rank}</h4>
+                    <img src={image} alt={title} /> <br />
+                </div>
+                <div className="book-abt">
+                    <a href={link} target={"_blank"}>{title}</a>
+                    <h4>Author: {author}</h4>
+                    <p>{description}</p>
+                </div>
+            {/* </li> */}
         </div>
     )
 }
