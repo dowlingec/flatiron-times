@@ -46,21 +46,28 @@ button {
     float:left;
     padding-left:5%;
     padding-right:5%;
-    width: 23.3333333%;
+    width: 15%;
   }
 
   .mid-nav {
     float:left;
     padding-left: 5%;
     padding-right: 5%;
-    width: 23.3333333%;
+    width: 15%;
   }
 
   .right-nav {
     float:left; 
     padding-left:5%;
     padding-right: 5%;
-    width: 23.3333333%;
+    width: 15%;
+  }
+
+  .end-nav {
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 15%;
   }
 
 .book-card {
