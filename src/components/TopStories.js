@@ -13,12 +13,14 @@ const TopStories = ({stories, setFilterBy }) => {
 
     return(
 
-        <div className='top-stories'>
-            <h1>TOP STORIES</h1><br/>
-            <StoriesNav setFilterBy={setFilterBy}/>
-            {stories.map((element)=>{
+        <div >
+            {/* <h1>TOP STORIES</h1><br/> */}
+            <StoriesNav setFilterBy={setFilterBy}/><br/>
+            <div className='top-stories'>
+                {stories.map((element)=>{
                return( <StoryCard element={element} key={element.url}/>)
-            })}
+                })}
+            </div>
         </div>
     )
 }
