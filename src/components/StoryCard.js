@@ -1,6 +1,3 @@
-import StoryCommentForm from "./StoryCommentForm"
-
-
 const StoryCard = ({element}) => {
 
     const {title, abstract, url, byline} = element

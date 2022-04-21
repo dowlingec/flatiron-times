@@ -1,7 +1,3 @@
-import BookReviewForm from './BookReviewForm'
-import StoryCommentForm from './StoryCommentForm'
-
-
 const HomePage = ({books, stories}) => {
 
 

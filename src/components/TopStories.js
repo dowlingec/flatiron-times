@@ -3,14 +3,6 @@ import StoriesNav from './StoriesNav'
 
 const TopStories = ({stories, setFilterBy }) => {
     
-    // let lowerCaseTitle = stories.el.title.toLowerCase() 
-    
-    // let testFilter = "ukraine"
-
-    // const setStoriesToDisplay = lowerCaseTitle.includes(testFilter)
-
-    // console.log("result" = setStoriesToDisplay)
-
     return(
 
         <div >
