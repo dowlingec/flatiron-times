@@ -1,7 +1,9 @@
 html {
-  background: url(https://img.myloview.com/posters/old-paper-background-old-crumpled-paper-texture-vintage-retro-newspaper-empty-blank-space-page-with-grunge-stain-line-pattern-400-211347626.jpg) no-repeat center fixed;
+  background: url(https://c1.wallpaperflare.com/preview/955/426/445/paper-old-texture-parchment.jpg) no-repeat center fixed;
   background-size: cover;
 }
+
+/* <img itemprop="contentUrl" class="view_img" id="vimg" data-height="517" alt="untitled, paper, old, texture, parchment, background, antique, HD wallpaper" src="" height="517"> */
 
 body {
   padding-top: 58px;
@@ -12,18 +14,18 @@ body {
 }
 
 p {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: sans-serif;
   font-size: 1.2em;
   font-weight: medium;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: sans-serif;
 }
 
 a {
   color: black;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: sans-serif;
   font-size: 24px;
 }
 
@@ -114,8 +116,9 @@ button {
 .story-card {
   width: 25%;
   margin:2%;
-  border: 2px black;
+  border: 2px solid black;
   border-radius: 4px;
+  height: min-content;
 }
 .story-c-image {
   max-width: 100%;
