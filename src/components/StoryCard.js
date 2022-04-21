@@ -10,7 +10,6 @@ const StoryCard = ({element}) => {
     return(
         <div className='story-card'>
            <h4> <a href={url} target={"_blank"}>{title}</a> </h4>
-            {/* <h4>Title: {title}</h4> */}
             <img src={image} alt={title} className="story-c-image"/>
             <p>{caption}</p>
             <p>{abstract}</p>
