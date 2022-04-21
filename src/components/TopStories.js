@@ -14,7 +14,7 @@ const TopStories = ({stories, setFilterBy }) => {
     return(
 
         <div >
-            {/* <h1>TOP STORIES</h1><br/> */}
+            <h1>TOP STORIES</h1><br/>
             <StoriesNav setFilterBy={setFilterBy}/><br/>
             <div className='top-stories'>
                 {stories.map((element)=>{
