@@ -1,12 +1,20 @@
 {
   "fakeNews": [
     {
-      "id": 2,
-      "title": "This is fake news",
-      "image": "https://epe.brightspotcdn.com/40/6d/df528a65e0c716709b0cf7108d96/web-fake-news-img.jpg",
-      "caption": "This picture is fake news",
-      "abstract": "This is an article about fake news",
-      "author": "Fake News"
+      "title": "Michael's Lectures",
+      "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--z0SPGQju--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://hero-health.org/wp-content/uploads/2019/02/optional-mandatory-crop.jpg",
+      "caption": "Optional, the new Mandatory!",
+      "abstract": "Michael Law changing the game with his new definition of optional.",
+      "author": "Throsby Wells",
+      "id": 3
+    },
+    {
+      "title": "The Phase 5 Messiah",
+      "image": "https://www.phase-5.com/hs-fs/hubfs/Phase5%C2%AE_logo_BlkBlue_.png?width=2043&name=Phase5%C2%AE_logo_BlkBlue_.png",
+      "caption": "The most famous man in all of Flatiron",
+      "abstract": "The guy who is seemingly doing it all, does it again.",
+      "author": "Anonymous",
+      "id": 4
     }
   ]
 }
