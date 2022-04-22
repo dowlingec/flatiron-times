@@ -27,7 +27,7 @@ const FakeNewsCard = ({element, setFakeNews}) => {
     return(
         <div>
             <h3>{title}</h3>
-            <img src={image} alt={title} /> <br/>
+            <img className='fake-news-img' src={image} alt={title} /> <br/>
             <p>{caption}</p>
             <p>{abstract}</p>
             <h4>By: {author}</h4>

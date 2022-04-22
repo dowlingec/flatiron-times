@@ -147,8 +147,11 @@ button {
 
 img {
   height: 400px;
-  width: 600px;
   vertical-align: middle;
+}
+
+.fake-news-img {
+  width: 600px;
 }
 
 
