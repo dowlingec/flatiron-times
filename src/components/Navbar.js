@@ -4,6 +4,7 @@ const Navbar = () => {
 
     return (
         <div className="nav">
+            <div className="page-header"><h1>The Flatiron Times</h1></div>
            <div className='left-nav'>
                <NavLink to="/" exact> Flatiron Times </NavLink>
             </div>
