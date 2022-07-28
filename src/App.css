@@ -48,8 +48,8 @@ button {
   top: 0;
   /* justify-content: center; */
 }
-  .page-header {
-    font-family: "Heavy";
+  h1 {
+    font-family: "OldEnglish";
   }
 
   .left-nav {
