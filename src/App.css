@@ -3,6 +3,8 @@ html {
   background-size: cover;
 }
 
+
+
 /* <img itemprop="contentUrl" class="view_img" id="vimg" data-height="517" alt="untitled, paper, old, texture, parchment, background, antique, HD wallpaper" src="" height="517"> */
 
 body {
@@ -31,7 +33,7 @@ a {
 
 button {
   font-size: 1em;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   margin-right: 5px;
   border-radius: 50px;
   text-align: center;
@@ -40,12 +42,15 @@ button {
 .nav {
   position: fixed;
   /* display: block; */
-  background-image: url(https://i.pinimg.com/736x/4c/38/03/4c38037d5a3c6006020fc8ebc201d707.jpg);
+  background-color: ivory;
   background-size: cover;
   width: 100%;
   top: 0;
   /* justify-content: center; */
 }
+  .page-header {
+    font-family: "Heavy";
+  }
 
   .left-nav {
     float:left;
