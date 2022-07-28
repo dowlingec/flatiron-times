@@ -6,7 +6,7 @@ const Navbar = () => {
 
     return (
         <div className="nav">
-            <div className="page-header"><h1>The Flatiron Times</h1></div>
+            <div className="page-header"><h1>The Flatiron Times</h1><hr></hr></div>
            <div className='left-nav'>
                <NavLink to="/" exact> Flatiron Times </NavLink>
             </div>
@@ -19,7 +19,8 @@ const Navbar = () => {
             <div className="end-nav">
                 <NavLink to="/fakenews">Fake News</NavLink>
             </div>
-
+            <hr></hr>
+            <hr></hr>
         </div>
     )
 }
