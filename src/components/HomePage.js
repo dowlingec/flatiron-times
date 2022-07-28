@@ -14,7 +14,7 @@ const HomePage = ({books, stories}) => {
 
     return (
         <div>
-            <h1>HOME</h1>
+            {/* <h1>HOME</h1> */}
             <div className="homepage-div">
                 <div className="home-left">
                         <img src={image} alt={title} /><br/>

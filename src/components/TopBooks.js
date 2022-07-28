@@ -5,7 +5,7 @@ const TopBooks = ({setBookType, books, setBookFilter}) => {
 
     return(
         <div className='top-books'>
-            <h1>TOP BOOKS</h1><br/>
+            {/* <h1>TOP BOOKS</h1><br/> */}
             <button onClick={()=>{
                 setBookType('combined-print-and-e-book-fiction')
                 }}>Fiction</button>
