@@ -8,13 +8,13 @@ const Navbar = () => {
         <div className="nav">
             <div className="page-header"><h1>The Flatiron Times</h1><hr></hr></div>
            <div className='left-nav'>
-               <NavLink to="/" exact> Flatiron Times </NavLink>
+               <NavLink to="/" exact> Breaking News </NavLink>
             </div>
            <div className='mid-nav'>
-               <NavLink to="/topstories" exact>Top Stories </NavLink>
+               <NavLink to="/topstories" exact>Latest Stories </NavLink>
             </div>
            <div className='right-nav'>
-               <NavLink to="/topbooks" exact> Top Books </NavLink>
+               <NavLink to="/topbooks" exact> Best Sellers </NavLink>
             </div>
             <div className="end-nav">
                 <NavLink to="/fakenews">Fake News</NavLink>

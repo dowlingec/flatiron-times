@@ -52,9 +52,10 @@ const TopBooks = ({setBookType, books, setBookFilter}) => {
             <br/>
             <br/>
             <BooksNav setBookFilter={setBookFilter}/>
-            {books.map((element)=>{
+            <div className="book-card-div">{books.map((element)=>{
                return( <BookCard element={element} key={element.rank}/>)
-            })}
+                })}
+            </div>
         </div>
     )
 }

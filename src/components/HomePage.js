@@ -16,15 +16,16 @@ const HomePage = ({books, stories}) => {
         <div>
             {/* <h1>HOME</h1> */}
             <div className="homepage-div">
-                <div className="home-left">
+                {/* <div className="home-left">
                         <img src={image} alt={title} /><br/>
                         <a href={link} target={"_blank"}>{title.toUpperCase()}</a> <br/>
                         <h4>Author: {author}</h4>
                         <p>{description}</p>
-                </div>  
+                </div>   */}
                 <div className="home-right">
+                    
+                    <a href={url} target={"_blank"}>{storyTitle}</a>
                     <img src={storyImage} alt={storyTitle}/><br/>
-                    <a href={url} target={"_blank"}>{storyTitle.toUpperCase()}</a>
                     <p>{caption}</p>
                     <p>{abstract}</p>
                     <h4>{byline}</h4>

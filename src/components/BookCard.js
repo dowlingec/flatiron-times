@@ -6,12 +6,12 @@ const BookCard = ({element}) => {
     return(
         <div className="book-card">
                 <div className="book-img">
-                    <h4>Rank: {rank}</h4>
+                    <h3>Rank: {rank}</h3>
                     <img src={image} alt={title} /> <br />
                 </div>
                 <div className="book-abt">
                     <a href={link} target={"_blank"}>{title}</a>
-                    <h4>Author: {author}</h4>
+                    <h4>By {author}</h4>
                     <p>{description}</p>
                 </div>
         </div>
