@@ -25,7 +25,7 @@ const HomePage = ({books, stories}) => {
                 <div className="home-right">
                     
                     <a href={url} target={"_blank"}>{storyTitle}</a>
-                    <img src={storyImage} alt={storyTitle}/><br/>
+                    <img src={storyImage} alt={caption}/><br/>
                     <p>{caption}</p>
                     <p>{abstract}</p>
                     <h4>{byline}</h4>
