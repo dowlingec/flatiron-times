@@ -36,11 +36,12 @@ a {
 }
 
 button {
-  font-size: 1em;
+  font-size: 3em;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-right: 5px;
   border-radius: 50px;
   text-align: center;
+  background-color: antiquewhite;
 }
 
 .nav {
