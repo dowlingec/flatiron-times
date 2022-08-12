@@ -19,9 +19,11 @@ const FakeNewsContainer = () => {
         <div className='fake-news'>
             {/* <h2>Add your own story...</h2><br/> */}
             <NewFakeNews setFakeNews={setFakeNews}/>
+            <div className="fn-map">
             {fakeNews.map((element)=> {
             return(    <FakeNewsCard element={element} key={element.id} setFakeNews={setFakeNews}/>)
             })}
+            </div>
         </div>
     )
 }

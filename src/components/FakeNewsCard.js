@@ -25,12 +25,12 @@ const FakeNewsCard = ({element, setFakeNews}) => {
     let deleteMsg = deleteBtn ? 'Are you sure?' : "Delete"
 
     return(
-        <div>
-            <h3>{title}</h3>
+        <div className="fn-card">
+            <h2>{title}</h2>
             <img className='fake-news-img' src={image} alt={title} /> <br/>
             <p>{caption}</p>
             <p>{abstract}</p>
-            <h4>By: {author}</h4>
+            <h3>By: {author}</h3>
             <button onClick={()=>{setDeleteBtn(true)}}>{deleteMsg}</button><br/>
             {deleteBtn ? 
             <button onClick={handleDelete}>Yes</button>: null

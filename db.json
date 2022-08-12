@@ -15,6 +15,14 @@
       "abstract": "The guy who is seemingly doing it all, does it again.",
       "author": "Anonymous",
       "id": 4
+    },
+    {
+      "title": "Liz Dowling - Coder",
+      "image": "https://marquemedical.com/wp-content/uploads/2017/08/newhire.png",
+      "caption": "New hire name badge",
+      "abstract": "Why should you hire this woman? Because she knows how to code!",
+      "author": "Definitely not Liz",
+      "id": 5
     }
   ]
 }

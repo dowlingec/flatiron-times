@@ -34,7 +34,7 @@ const NewFakeNews = ({setFakeNews}) => {
     }
 
     return(
-        <div>
+        <div className="form-w-button">
             <button onClick={()=>{setToggleForm(!toggleForm)}}>Add Your Story...</button>
         {toggleForm ?
         <form className='fake-news-form' onSubmit={handleSubmit}>

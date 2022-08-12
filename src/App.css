@@ -23,7 +23,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 a {
@@ -36,12 +36,12 @@ a {
 }
 
 button {
-  font-size: 3em;
+  font-size: 2em;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-right: 5px;
-  border-radius: 50px;
+  border-radius: 10px;
   text-align: center;
-  background-color: antiquewhite;
+  background-color: white;
 }
 
 .nav {
@@ -176,10 +176,21 @@ img {
 }
 
 .fake-news-img {
-  width: 600px;
+  height: auto;
+  width: 300px;
 }
 
+.fake-news {
+  align-content: center;
+}
+.fn-map{
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.fn-card{
+  width: 30vw;
+}
 .App {
   display: flex;
   flex-direction: column;
